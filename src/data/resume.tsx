@@ -133,6 +133,7 @@ export const DATA = {
       href: "https://thehotelbeds.xunoia.com",
       dates: "December 2024 - Present",
       active: true,
+      kind:"website",
       description:'TheHotelBeds is a US-based hotel booking platform, making it easy to find and book top-rated stays across the country and beyond. Enjoy seamless reservations tailored to your style, budget, and comfort.',
         technologies: [
         "React.js",
@@ -154,6 +155,7 @@ export const DATA = {
       title: "Rinze Laundry",
       href: "https://rinzelaundry.com",
       dates: "November 2024 - Present",
+      kind:"app",
       active: true,
       description:
         "Building Rinze, a seamless laundry service app that simplifies pick-up, cleaning, and delivery—making fresh, clean clothes just a tap away.",
@@ -178,67 +180,67 @@ export const DATA = {
       image: "",
       video:"https://syedfahad7.github.io/Portfolio_project_vids/videos/rinze.mp4",
     },
-    {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
-      active: true,
-      description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
-    },
-    {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:""
-  },
+  //   {
+  //     title: "llm.report",
+  //     href: "https://llm.report",
+  //     dates: "April 2023 - September 2023",
+  //     active: true,
+  //     description:
+  //       "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+  //     technologies: [
+  //       "Next.js",
+  //       "Typescript",
+  //       "PostgreSQL",
+  //       "Prisma",
+  //       "TailwindCSS",
+  //       "Shadcn UI",
+  //       "Magic UI",
+  //       "Stripe",
+  //       "Cloudflare Workers",
+  //     ],
+  //     links: [
+  //       {
+  //         type: "Website",
+  //         href: "https://llm.report",
+  //         icon: <Icons.globe className="size-3" />,
+  //       },
+  //       {
+  //         type: "Source",
+  //         href: "https://github.com/dillionverma/llm.report",
+  //         icon: <Icons.github className="size-3" />,
+  //       },
+  //     ],
+  //     image: "",
+  //     video: "https://cdn.llm.report/openai-demo.mp4",
+  //   },
+  //   {
+  //     title: "Automatic Chat",
+  //     href: "https://automatic.chat",
+  //     dates: "April 2023 - March 2024",
+  //     active: true,
+  //     description:
+  //       "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+  //     technologies: [
+  //       "Next.js",
+  //       "Typescript",
+  //       "PostgreSQL",
+  //       "Prisma",
+  //       "TailwindCSS",
+  //       "Shadcn UI",
+  //       "Magic UI",
+  //       "Stripe",
+  //       "Cloudflare Workers",
+  //     ],
+  //     links: [
+  //       {
+  //         type: "Website",
+  //         href: "https://automatic.chat",
+  //         icon: <Icons.globe className="size-3" />,
+  //       },
+  //     ],
+  //     image: "",
+  //     video:""
+  // },
   ],
   hackathons: [
     {
