@@ -148,9 +148,8 @@ export const DATA = {
         },
       ],
       image: "",
-      video:
-        "https://pouch.jumpshare.com/preview/WJ3QsjzWJIasICbMc3TwByK2dL1RBKWjwqL0ePslPAd-KCutjSeNjce4sYCpgPNN0oiaZB2lTe3pi4uncmWT6gcxiTaVM1QtKKn8VicvkOxsnArNcW2oRbEHS8Y-9tCaXCsUP9UvKeDgJ-2-ZoD52m6yjbN-I2pg_cnoHs_AmgI.mp4",
-    },
+      video:"https://syedfahad7.github.io/Portfolio_project_vids/videos/hotelbeds.mp4" ,
+      },
     {
       title: "Rinze Laundry",
       href: "https://rinzelaundry.com",
@@ -177,7 +176,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://pouch.jumpshare.com/preview/E0aAwlA_CuOQwV4o7ykZ-u_QHA2ZSM8-enorbRAwWlcJDUToGzwE96eEfivale4vmEfQEswlE3itdiOfEslsFRCWtGuxS954ZcjQRhQvlSqX4iuNvGgR2jn1o26MIfo6ujZqOBUBmgAQjFZfZ0GzZG6yjbN-I2pg_cnoHs_AmgI.mp4",
+      video:"https://syedfahad7.github.io/Portfolio_project_vids/videos/rinze.mp4",
     },
     {
       title: "llm.report",
@@ -238,9 +237,8 @@ export const DATA = {
         },
       ],
       image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-    },
+      video:""
+  },
   ],
   hackathons: [
     {
