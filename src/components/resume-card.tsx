@@ -8,11 +8,13 @@ import { motion } from "framer-motion";
 import { ChevronRightIcon } from "lucide-react";
 import Link from "next/link";
 import React from "react";
-
+import { TbLocationCode } from "react-icons/tb";
+import { CiLocationArrow1 } from "react-icons/ci";
 interface ResumeCardProps {
   logoUrl: string;
   altText: string;
   title: string;
+  location: string;
   subtitle?: string;
   href?: string;
   badges?: readonly string[];
@@ -23,6 +25,7 @@ export const ResumeCard = ({
   logoUrl,
   altText,
   title,
+  location,
   subtitle,
   href,
   badges,
@@ -45,7 +48,7 @@ export const ResumeCard = ({
       onClick={handleClick}
     >
       <Card className="flex flex-row items-center">
-          <Avatar className="border size-10 bg-muted-background dark:bg-foreground">
+          <Avatar className="border size-12 bg-muted-background dark:bg-foreground">
             <AvatarImage
               src={logoUrl}
               alt={altText}
@@ -82,7 +85,10 @@ export const ResumeCard = ({
                 {period}
               </div>
             </div>
+            <div className="flex flex-col gap-y-0.5">
             {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
+            <div className=" flex gap-1 font-sans text-xs items-center"><CiLocationArrow1 />{location}</div>
+            </div>     
           </CardHeader>
           {description && (
             <motion.div
