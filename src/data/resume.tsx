@@ -135,12 +135,23 @@ export const DATA = {
       href: "https://codewavehub.in/",
       badges: [],
       location: "WFO",
-      title: "Lead",
+      title: "Community Lead",
       logoUrl: "/cwh.png",
       start: "July 2024",
       end: "November 2024",
       description: "Led the community by organizing events, meetups, and hackathons while delivering talks and workshops. Focused on fostering a collaborative environment to help others grow in tech."
-    },    
+    }, 
+    {
+      company: "Swecha",
+      href: "https://swecha.org/",
+      badges: [],
+      location: "Hybrid",
+      title: "Web Developer",
+      logoUrl: "/swecha.png",
+      start: "February 2025",
+      end: "Current",
+      description: "Building the website for one of Swecha's flagship events, AIDays, using Next.js."
+    }   
   ],
   education: [
     {
