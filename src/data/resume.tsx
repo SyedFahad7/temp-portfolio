@@ -77,6 +77,7 @@ export const DATA = {
     {
       company: "ZapStyle",
       href: "http://",
+      badges: [],
       location:"Hybrid",
       title: "Flutter App Developer",
       logoUrl: "/zapstyle.png",
