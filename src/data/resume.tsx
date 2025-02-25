@@ -75,6 +75,15 @@ export const DATA = {
         "Leading the development of CycleSync's website and app, using Next.js, Flutter, and Firebase to create user-friendly solutions for women's health and productivity.",
     },
     {
+      company: "ZapStyle",
+      href: "http://",
+      location:"Hybrid",
+      title: "Flutter App Developer",
+      logoUrl: "/zapstyle.png",
+      start: "Feb 2025",
+      end: "Current",
+      description:"Developing a fashion app that enables vendors to showcase their products and customers to shop with ease. The platform offers a seamless shopping experience with under 60-minute delivery, ensuring fast and convenient access to the latest styles and trends."    },
+    {
       company: "Xunoia",
       badges: [],
       href: "",
