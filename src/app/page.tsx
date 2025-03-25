@@ -1,3 +1,4 @@
+"use client";
 import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
@@ -8,7 +9,9 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
+import Image from "next/image";
 import Markdown from "react-markdown";
+import { BackgroundGradient } from "@/components/ui/backgroundGradient";
 
 const BLUR_FADE_DELAY = 0.1;
 
@@ -139,6 +142,54 @@ export default function Page() {
             ))}
           </div>
         </div>
+      </section>
+      <section id="Publication">
+        <BlurFade delay={BLUR_FADE_DELAY * 17}>
+          <h2 className="text-xl font-bold mb-4">Publications</h2>
+        </BlurFade>
+        <BlurFade delay={BLUR_FADE_DELAY * 18}>
+          <BackgroundGradient className="rounded-[22px] max-w-2xl p-4 sm:p-10 bg-white dark:bg-zinc-900">
+            <div className="flex flex-col md:flex-row gap-6 items-center">
+              {/* Image on the left */}
+              <div className="flex-shrink-0">
+                <Image
+                  src="/loa.jpg"
+                  alt="jordans"
+                  height={200}
+                  width={200}
+                  className="object-contain rounded-lg"
+                />
+              </div>
+
+              {/* Content on the right */}
+              <div className="flex flex-col">
+                <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
+                  Letter of Appreciation
+                </p>
+
+                <p className="text-sm text-neutral-600 dark:text-neutral-400">
+                  Received a letter of appreciation for authoring a
+                  comprehensive textbook on Operational Research. The book
+                  provides in-depth explanations of Linear Programming and
+                  Assignment Problems, covering both manual problem-solving
+                  techniques and Python implementations. Designed for students
+                  with basic Python knowledge, it aims to make complex concepts
+                  accessible and practical.
+                </p>
+
+                <button
+                  onClick={() => window.open("https://amzn.in/d/77NWat6", "_blank")}
+                  className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800 w-1/2 h-10"
+                >
+                  <span>Buy now </span>
+                  <span className="bg-zinc-700 rounded-full text-xs px-2 py-1 text-white">
+                  ₹999/-
+                  </span>
+                </button>
+              </div>
+            </div>
+          </BackgroundGradient>
+        </BlurFade>
       </section>
       <section id="projects">
         <div className="space-y-12 w-full py-12">

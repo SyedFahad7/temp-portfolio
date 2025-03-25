@@ -63,14 +63,25 @@ export const DATA = {
 
   work: [
     {
+      "company": "Wavexcel",
+      "href": "https://wavexcel.in",
+      "badges": [],
+      "location": "Remote",
+      "title": "Frontend Developer",
+      "logoUrl": "/wavexcel.jpeg",
+      "start": "March 2025",
+      "end": "Current",
+      "description": "Building a dynamic frontend website where content is intelligently generated using AI. Optimizing performance, implementing SEO best practices, and ensuring a seamless user experience with responsive and modern UI components."
+    },    
+    {
       company: "CycleSync",
       href: "https://cyclesync.in",
       badges: [],
       location: "Hybrid",
-      title: "Lead Developer",
+      title: "Web Developer",
       logoUrl: "/CYCLESYNC.png",
       start: "December 2024",
-      end: "still working",
+      end: "Current",
       description:
         "Leading the development of CycleSync's website and app, using Next.js, Flutter, and Firebase to create user-friendly solutions for women's health and productivity.",
     },
@@ -81,8 +92,8 @@ export const DATA = {
       location:"Hybrid",
       title: "Flutter App Developer",
       logoUrl: "/zapstyle.png",
-      start: "Feb 2025",
-      end: "Current",
+      start: "Jan 2025",
+      end: "March 2025",
       description:"Developing a fashion app that enables vendors to showcase their products and customers to shop with ease. The platform offers a seamless shopping experience with under 60-minute delivery, ensuring fast and convenient access to the latest styles and trends."    },
     {
       company: "Xunoia",
@@ -92,7 +103,7 @@ export const DATA = {
       title: "Application Developer Intern",
       logoUrl: "/xunoia.png",
       start: "November 2024",
-      end: "still working",
+      end: "Current",
       description:
         "Currently working on Rinze Laundry, a laundry servicing app for customers and delivery agents. The app streamlines pick-up and drop-off services across multiple locations in India, providing a seamless user experience.",
     },
@@ -227,6 +238,31 @@ export const DATA = {
       image: "",
       video:"https://syedfahad7.github.io/Portfolio_project_vids/videos/rinze.mp4",
     },
+    {
+      "title": "CycleSync",
+      "href": "https://www.cyclesync.in",
+      "dates": "December 2024 - February 2025",
+      "active": true,
+      "kind": "website",
+      "description": "CycleSync is a menstrual health and wellness platform designed to help women track their cycles, gain AI-driven insights, and sync wellness tips with their body's natural rhythm. With features like cycle tracking, AI insights, partner connect, and personalized nutrition plans, CycleSync empowers women to take charge of their health effortlessly.",
+      "technologies": [
+        "Next.js",
+        "Framer Motion",
+        "TailwindCSS",
+        'MongoDB',
+        'Express',
+        'Node.js',
+      ],
+      "links": [
+        {
+          "type": "Website",
+          "href": "https://www.cyclesync.in",
+          "icon": <Icons.globe className='size-3' />
+        }
+      ],
+      "image": "",
+      "video": "https://syedfahad7.github.io/Portfolio_project_vids/videos/cyclesync.mp4"
+    },    
   //   {
   //     title: "llm.report",
   //     href: "https://llm.report",
