@@ -63,6 +63,17 @@ export const DATA = {
 
   work: [
     {
+      "company": "MadQuick",
+      "href": "https://madquick.in",
+      "badges": [],
+      "location": "Remote",
+      "title": "Full Stack Developer + Android Developer Intern",
+      "logoUrl": "/madquick.jpeg",
+      "start": "March 2025",
+      "end": "Current",
+      "description": "Working on a multi-platform grocery delivery system with a customer app, delivery agent app, and admin panel. Contributed to building features like real-time tracking and order management",    
+    },
+    {
       "company": "Wavexcel",
       "href": "https://wavexcel.in",
       "badges": [],
@@ -87,7 +98,7 @@ export const DATA = {
     },
     {
       company: "ZapStyle",
-      href: "http://",
+      href: "https://www.zyve.in/",
       badges: [],
       location:"Hybrid",
       title: "Flutter App Developer",
@@ -99,7 +110,7 @@ export const DATA = {
       company: "Xunoia",
       badges: [],
       href: "",
-      location: "WFO",
+      location: "Remote",
       title: "Application Developer Intern",
       logoUrl: "/xunoia.png",
       start: "November 2024",
@@ -109,7 +120,7 @@ export const DATA = {
     },
     {
       company: "EdVenture Park",
-      href: "https://splunk.com",
+      href: "http://edventurepark.com/",
       badges: [],
       location: "Hybrid",
       title: "Apprenticeship/Incubatee",
@@ -155,7 +166,7 @@ export const DATA = {
       company: "CodeWaveHub",
       href: "https://codewavehub.in/",
       badges: [],
-      location: "WFO",
+      location: "Remote",
       title: "Community Lead",
       logoUrl: "/cwh.png",
       start: "July 2024",
@@ -262,68 +273,32 @@ export const DATA = {
       ],
       "image": "",
       "video": "https://syedfahad7.github.io/Portfolio_project_vids/videos/cyclesync.mp4"
-    },    
-  //   {
-  //     title: "llm.report",
-  //     href: "https://llm.report",
-  //     dates: "April 2023 - September 2023",
-  //     active: true,
-  //     description:
-  //       "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-  //     technologies: [
-  //       "Next.js",
-  //       "Typescript",
-  //       "PostgreSQL",
-  //       "Prisma",
-  //       "TailwindCSS",
-  //       "Shadcn UI",
-  //       "Magic UI",
-  //       "Stripe",
-  //       "Cloudflare Workers",
-  //     ],
-  //     links: [
-  //       {
-  //         type: "Website",
-  //         href: "https://llm.report",
-  //         icon: <Icons.globe className="size-3" />,
-  //       },
-  //       {
-  //         type: "Source",
-  //         href: "https://github.com/dillionverma/llm.report",
-  //         icon: <Icons.github className="size-3" />,
-  //       },
-  //     ],
-  //     image: "",
-  //     video: "https://cdn.llm.report/openai-demo.mp4",
-  //   },
-  //   {
-  //     title: "Automatic Chat",
-  //     href: "https://automatic.chat",
-  //     dates: "April 2023 - March 2024",
-  //     active: true,
-  //     description:
-  //       "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-  //     technologies: [
-  //       "Next.js",
-  //       "Typescript",
-  //       "PostgreSQL",
-  //       "Prisma",
-  //       "TailwindCSS",
-  //       "Shadcn UI",
-  //       "Magic UI",
-  //       "Stripe",
-  //       "Cloudflare Workers",
-  //     ],
-  //     links: [
-  //       {
-  //         type: "Website",
-  //         href: "https://automatic.chat",
-  //         icon: <Icons.globe className="size-3" />,
-  //       },
-  //     ],
-  //     image: "",
-  //     video:""
-  // },
+    },
+    {
+      "title": "SanketikaFest",
+      "href": "https://sanketikafest.in",
+      "dates": "March 2025 - April 2025",
+      "active": true,
+      "kind": "website",
+      "description": "Designed and developed the official website for Sanketika Fest 2025, an annual technical and cultural fest hosted in Hyderabad, India. Built with Next.js, the site features beautiful UI components, seamless navigation, and light/dark theme control. It provides complete details about event schedules, activities, and registration.",
+      "technologies": [
+        "Next.js",
+        "Framer Motion",
+        "TailwindCSS",
+        "Typescript",
+        "Shadcn UI",
+      ],
+      "links": [
+        {
+          "type": "Website",
+          href: "https://sanketikafest.in",
+          icon: <Icons.globe className='size-3' />,   
+        },
+      ],
+      "image": "",
+      "video": "https://syedfahad7.github.io/Portfolio_project_vids/videos/sanketika.mp4"
+    },
+    
   ],
   hackathons: [
     {
