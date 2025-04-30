@@ -119,16 +119,6 @@ export const DATA = {
         "Currently working on Rinze Laundry, a laundry servicing app for customers and delivery agents. The app streamlines pick-up and drop-off services across multiple locations in India, providing a seamless user experience.",
     },
     {
-      company: "EdVenture Park",
-      href: "http://edventurepark.com/",
-      badges: [],
-      location: "Hybrid",
-      title: "Apprenticeship/Incubatee",
-      logoUrl: "/edventurepark.jpeg",
-      start: "Febuary 2024",
-      end: "May 2024",
-      description:"Launching a tech-focused startup with 'CareCompass,' an AI-driven app for skin and hair analysis. Features include personalized nutrition tracking, tailored suggestions, comprehensive analysis, and seamless booking for dermatologist consultations, available both online and offline." },
-    {
       company: "DryCode",
       href: "",
       badges: [],
@@ -183,7 +173,18 @@ export const DATA = {
       start: "February 2025",
       end: "Current",
       description: "Building the website for one of Swecha's flagship events, AIDays, using Next.js."
-    }   
+    },
+    {
+      company: "EdVenture Park",
+      href: "http://edventurepark.com/",
+      badges: [],
+      location: "Hybrid",
+      title: "Apprenticeship/Incubatee",
+      logoUrl: "/edventurepark.jpeg",
+      start: "Febuary 2024",
+      end: "May 2024",
+      description:"Launching a tech-focused startup with 'CareCompass,' an AI-driven app for skin and hair analysis. Features include personalized nutrition tracking, tailored suggestions, comprehensive analysis, and seamless booking for dermatologist consultations, available both online and offline."
+    },
   ],
   education: [
     {
