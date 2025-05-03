@@ -63,6 +63,17 @@ export const DATA = {
 
   work: [
     {
+       "company": "MadQuick",
+       "href": "https://madquick.in",
+       "badges": [],
+       "location": "Remote",
+       "title": "Full Stack Developer + Android Developer Intern",
+       "logoUrl": "/madquick.jpeg",
+       "start": "March 2025",
+       "end": "Current",
+       "description": "Working on a multi-platform grocery delivery system with a customer app, delivery agent app, and admin panel. Contributed to building features like real-time tracking and order management",    
+     },
+{
       "company": "WissionAxis",
       "href": "https://www.linkedin.com/company/wissionaxis",
       "badges": [],
