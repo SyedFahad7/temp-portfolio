@@ -161,7 +161,7 @@ export const DATA = {
       logoUrl: "/hp.jpg",
       start: "March 2024",
       end: "Current",
-      
+      description:"Leading the end-to-end organization and technical execution of HackPrix — India’s most vibrant student-led hackathon ecosystem. With two successful seasons empowering 500+ participants each, HackPrix has grown into a thriving community of 2000+ students, developers, and professionals across the country. I’m responsible for building and maintaining the official website, managing the overall developer experience, collaborating with partners and mentors, and ensuring seamless operations — all driven by our mission of Building for Better 💙."
     },
     {
       company: "theDevArmy",
