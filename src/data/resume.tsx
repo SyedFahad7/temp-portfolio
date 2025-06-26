@@ -178,7 +178,7 @@ export const DATA = {
       company: "CodeWaveHub",
       href: "https://codewavehub.in/",
       badges: [],
-      location: "Remote",
+      location: "Hybrid",
       title: "Community Lead",
       logoUrl: "/cwh.png",
       start: "June 2024",
