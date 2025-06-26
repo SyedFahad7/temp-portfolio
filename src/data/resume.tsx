@@ -153,6 +153,17 @@ export const DATA = {
       description: "Creating visually engaging designs for community events, meetups, and initiatives using Canva and Figma to enhance outreach and engagement."
     },
     {
+      company: "HackPrix Community",
+      href: "https://hackprix.in",
+      badges: [],
+      location: "Hybrid",
+      title: "Lead Organiser & Developer",
+      logoUrl: "/hp.jpg",
+      start: "March 2024",
+      end: "Current",
+      
+    },
+    {
       company: "theDevArmy",
       href: "https://thedevarmy.vercel.app",
       badges: [],
@@ -160,7 +171,7 @@ export const DATA = {
       title: "Web Developer",
       logoUrl: "/thedevarmy.png",
       start: "December 2024",
-      end: "Current",
+      end: "April 2025",
       description: "Developing the official website for the theDevArmy community using Next.js. The site features the renowned HackCalendar, showcasing ongoing hackathons across India, a dedicated events page, and a dynamic landing page."
     },
     {
@@ -170,7 +181,7 @@ export const DATA = {
       location: "Remote",
       title: "Community Lead",
       logoUrl: "/cwh.png",
-      start: "July 2024",
+      start: "June 2024",
       end: "November 2024",
       description: "Led the community by organizing events, meetups, and hackathons while delivering talks and workshops. Focused on fostering a collaborative environment to help others grow in tech."
     }, 
@@ -179,10 +190,10 @@ export const DATA = {
       href: "https://swecha.org/",
       badges: [],
       location: "Hybrid",
-      title: "Web Developer",
+      title: "Web Developer & Mentor",
       logoUrl: "/swecha.png",
-      start: "February 2025",
-      end: "Current",
+      start: "January 2025",
+      end: "April 2025",
       description: "Building the website for one of Swecha's flagship events, AIDays, using Next.js."
     },
     {
