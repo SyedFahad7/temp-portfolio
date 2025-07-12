@@ -91,11 +91,11 @@ export const DATA = {
       "href": "https://wavexcel.in",
       "badges": [],
       "location": "Remote",
-      "title": "Frontend Developer",
+      "title": "Software Developer Intern",
       "logoUrl": "/wavexcel.jpeg",
       "start": "March 2025",
       "end": "June 2025",
-      "description": "Building a dynamic frontend website where content is intelligently generated using AI. Optimizing performance, implementing SEO best practices, and ensuring a seamless user experience with responsive and modern UI components."
+      "description": "Building a dynamic website where content is intelligently generated using AI. Optimizing performance, implementing SEO best practices, and ensuring a seamless user experience with responsive and modern UI components."
     }, 
     {
       "company": "MadQuick",
