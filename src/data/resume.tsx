@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, NotebookIcon, Images } from "lucide-react";
 import { Smartphone } from 'lucide-react';
 
 export const DATA = {
@@ -10,7 +10,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/Hyderabad",
   description:
     "Engineer by Day Coder by Night 🧑🏻‍💻. Undergrad Student. I love building things and helping people.",
-  summary: "I started my coding journey almost an year ago, and I immediately fell in love with it. I was super excited to build products, start-ups, and most importantly, help people get into tech, use tech to improve lives, and bring tech into businesses. ",
+  summary: "I started my coding journey almost an year ago, and I immediately fell in love with it. I was super excited to build products, start-ups, and most importantly, help people get into tech, use tech to improve lives, and bring tech into businesses.  I also love networking and giving talks to share what I’ve learned.",
   avatarUrl: "/me.jpg",
   skills: [
     "Flutter",
@@ -25,6 +25,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/gallery", icon: Images, label: "Gallery" },
   ],
   contact: {
     email: "syedfahad.dev@gmail.com",
@@ -63,17 +64,18 @@ export const DATA = {
 
   work: [
     {
-       "company": "MadQuick",
-       "href": "https://madquick.in",
-       "badges": [],
-       "location": "Remote",
-       "title": "Full Stack Developer + Android Developer Intern",
-       "logoUrl": "/madquick.jpeg",
-       "start": "March 2025",
-       "end": "Current",
-       "description": "Working on a multi-platform grocery delivery system with a customer app, delivery agent app, and admin panel. Contributed to building features like real-time tracking and order management",    
-     },
-{
+      company: "CycleSync",
+      href: "https://cyclesync.in",
+      badges: [],
+      location: "Hybrid",
+      title: "Lead Developer",
+      logoUrl: "/CYCLESYNC.png",
+      start: "December 2024",
+      end: "Current",
+      description:
+        "Leading the development of CycleSync's website and app, using Next.js, Flutter, and Firebase to create user-friendly solutions for women's health and productivity.",
+    },
+    {
       "company": "WissionAxis",
       "href": "https://www.linkedin.com/company/wissionaxis",
       "badges": [],
@@ -92,21 +94,20 @@ export const DATA = {
       "title": "Frontend Developer",
       "logoUrl": "/wavexcel.jpeg",
       "start": "March 2025",
-      "end": "Current",
+      "end": "June 2025",
       "description": "Building a dynamic frontend website where content is intelligently generated using AI. Optimizing performance, implementing SEO best practices, and ensuring a seamless user experience with responsive and modern UI components."
-    },    
+    }, 
     {
-      company: "CycleSync",
-      href: "https://cyclesync.in",
-      badges: [],
-      location: "Hybrid",
-      title: "Web Developer",
-      logoUrl: "/CYCLESYNC.png",
-      start: "December 2024",
-      end: "Current",
-      description:
-        "Leading the development of CycleSync's website and app, using Next.js, Flutter, and Firebase to create user-friendly solutions for women's health and productivity.",
-    },
+      "company": "MadQuick",
+      "href": "https://madquick.in",
+      "badges": [],
+      "location": "Remote",
+      "title": "Full Stack Developer + Android Developer Intern",
+      "logoUrl": "/madquick.jpeg",
+      "start": "March 2025",
+      "end": "June 2025",
+      "description": "Working on a multi-platform grocery delivery system with a customer app, delivery agent app, and admin panel. Contributed to building features like real-time tracking and order management",    
+    },   
     {
       company: "ZapStyle",
       href: "https://www.zyve.in/",
@@ -162,6 +163,17 @@ export const DATA = {
       start: "March 2024",
       end: "Current",
       description:"Leading the end-to-end organization and technical execution of HackPrix — India’s most vibrant student-led hackathon ecosystem. With two successful seasons empowering 500+ participants each, HackPrix has grown into a thriving community of 2000+ students, developers, and professionals across the country. I’m responsible for building and maintaining the official website, managing the overall developer experience, collaborating with partners and mentors, and ensuring seamless operations — all driven by our mission of Building for Better 💙."
+    },
+    {
+      company: "Pieces for Developers",
+      href: "https://pieces.app/",
+      badges: [],
+      location: "Remote",
+      title: "AI Ambassador",
+      logoUrl: "/pieces.png",
+      start: "Jan 2025",
+      end: "Current",
+      description:"Advocating AI adoption, supporting developer communities, and promoting Pieces tools through events, content, and outreach."
     },
     {
       company: "theDevArmy",
@@ -263,11 +275,6 @@ export const DATA = {
           href: "https://rinzelaundry.com",
           icon: <Smartphone className="size-3"/>,
         },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
-        },
       ],
       image: "",
       video:"https://syedfahad7.github.io/Portfolio_project_vids/videos/rinze.mp4",
@@ -320,6 +327,34 @@ export const DATA = {
       ],
       "image": "",
       "video": "https://syedfahad7.github.io/Portfolio_project_vids/videos/sanketika.mp4"
+    },
+    {
+      title: "HackPrix Community",
+      href: "https://hackprix.in",
+      dates: "May 2025 - June 2025",
+      kind:"website",
+      active: false,
+      description:
+        "Building the official website for HackPrix Community, an annual hackathon organized by the HackPrix community. The website is built with Next.js, TailwindCSS, and TypeScript.",
+      technologies: [
+        "Next.js",
+        "Framer Motion",
+        "TailwindCSS",
+        "Typescript",
+        "MongoDB",
+        "Express",
+        "Node.js",
+        "Storyblok",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://hackprix.in",
+          icon: <Icons.globe className='size-3' />,
+        },
+      ],
+      image: "",
+      video:"https://syedfahad7.github.io/Portfolio_project_vids/videos/hackprix.mp4",
     },
     
   ],
